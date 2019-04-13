@@ -1,7 +1,11 @@
 # Ignore the temp folder that holds dumps
 temp/
 
+# Ignore .csv temp files
+*.csv#
 
+# Ignore swp files
+*.swp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
