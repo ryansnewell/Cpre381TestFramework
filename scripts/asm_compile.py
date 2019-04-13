@@ -11,7 +11,7 @@ def sim_asm(asm_file=None):
     
     mars_dump_file = open('temp/mars_dump.out', 'w+')
     subprocess.call(
-            ['java','-jar','Mars_CPRE381_SIMD_v1.jar','nc',path],
+            ['java','-jar','dependencies/Mars_CPRE381_SIMD_v1.jar','nc',path],
             stdout=mars_dump_file
     )
     mars_dump_file.close()
